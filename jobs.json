@@ -1,0 +1,32 @@
+[
+    {
+        "job_name": "TTYYSAMP",
+        "steps": [
+            {
+                "datasets": [
+                    {
+                        "dd_name": "INPUT1  ",
+                        "dsn": "TUTO.SORT.INPUT1"
+                    },
+                    {
+                        "dd_name": "INPUT2  ",
+                        "disp": "SHR",
+                        "dsn": "TUTO.SORT.INPUT2"
+                    },
+                    {
+                        "dd_name": "OUTPUT1 ",
+                        "disp": "(,CATLG,DELETE)",
+                        "dsn": "MYFILES.SAMPLE.OUTPUT1",
+                        "space": "(CYL,(10,20)"
+                    },
+                    {
+                        "dd_name": "OUTPUT2 ",
+                        "sysout": "*"
+                    }
+                ],
+                "program_name": "ICETOOL",
+                "step_name": "STEP010 "
+            }
+        ]
+    }
+]
